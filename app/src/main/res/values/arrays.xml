@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="speed_rate">
+        <item> 200 </item>
+        <item> 400 </item>
+        <item> 600 </item>
+        <item> 800 </item>
+        <item> 1000 </item>
+    </string-array>
+
+    <string-array name="speed_rate_entry">
+        <item> 0 </item>
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+    </string-array>
+</resources>

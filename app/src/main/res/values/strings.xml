@@ -1,0 +1,14 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">FloatNetStates</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="current_speed_rate">当前速率:<xliff:g id="count">%1$s</xliff:g></string>
+    <string name="speed_rate">速率</string>
+    <string name="total_data">总流量</string>
+    <string name="cellular_data">移动流量</string>
+    <string name="wifi">Wifi流量</string>
+    <string name="tx_title">上行:</string>
+    <string name="rx_title">下行:</string>
+</resources>

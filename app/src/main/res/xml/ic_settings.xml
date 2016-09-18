@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="速率设置">
+        <ListPreference
+            android:defaultValue="4"
+            android:entries="@array/speed_rate"
+            android:entryValues="@array/speed_rate_entry"
+            android:key="preference_speed_rate"
+            android:summary="@string/current_speed_rate"
+            android:title="@string/speed_rate" />
+    </PreferenceCategory>
+    <Preference
+        android:key="preference_start"
+        android:title="开始" />
+    <Preference
+        android:key="preference_end"
+        android:title="结束" />
+</PreferenceScreen>

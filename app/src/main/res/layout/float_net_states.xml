@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#000"
+    android:columnCount="3"
+    android:orientation="horizontal"
+    android:rowCount="4">
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:gravity="center"
+        android:text="@string/total_data"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+    　　
+
+    <TextView
+        android:layout_marginStart="3dp"
+        android:background="@null"
+        android:text="@string/tx_title"
+        android:textColor="#fff" />
+    　　　
+
+    <com.cn.greenorange.floatnetstates.RealTimeNetStats
+        android:id="@+id/text_total_tx"
+        android:layout_marginStart="3dp"
+        android:background="@null"
+        android:gravity="start"
+        android:text="23333"
+        android:textColor="#fff" />
+
+    <com.cn.greenorange.floatnetstates.RealTimeNetStats
+        android:id="@+id/text_total"
+        android:layout_marginStart="3dp"
+        android:background="@null"
+        android:gravity="start"
+        android:text="23333"
+        android:textColor="#fff" />
+    　　
+
+    <TextView
+        android:layout_marginStart="3dp"
+        android:background="@null"
+        android:text="@string/rx_title"
+        android:textColor="#fff" />
+    　　
+
+    <com.cn.greenorange.floatnetstates.RealTimeNetStats
+        android:id="@+id/text_total_rx"
+        android:layout_marginStart="3dp"
+        android:background="@null"
+        android:gravity="start"
+        android:text="23333"
+        android:textColor="#fff" />
+    　　
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:gravity="center"
+        android:text="@string/cellular_data"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+    　　
+
+    <TextView
+        android:layout_marginStart="3dp"
+        android:background="@null"
+        android:text="@string/tx_title"
+        android:textColor="#fff" />
+    　　
+
+    <com.cn.greenorange.floatnetstates.RealTimeNetStats
+        android:id="@+id/text_cellular_tx"
+        android:layout_marginStart="3dp"
+        android:background="@null"
+        android:gravity="start"
+        android:text="11111"
+        android:textColor="#fff" />
+
+    <com.cn.greenorange.floatnetstates.RealTimeNetStats
+        android:id="@+id/text_cellular_total"
+        android:layout_marginStart="3dp"
+        android:background="@null"
+        android:gravity="start"
+        android:text="23333"
+        android:textColor="#fff" />
+    　　
+
+    <TextView
+        android:layout_marginStart="3dp"
+        android:background="@null"
+        android:text="@string/rx_title"
+        android:textColor="#fff" />
+    　　
+
+    <com.cn.greenorange.floatnetstates.RealTimeNetStats
+        android:id="@+id/text_cellular_rx"
+        android:layout_marginStart="3dp"
+        android:background="@null"
+        android:gravity="start"
+        android:text="11111"
+        android:textColor="#fff" />
+    　　
+
+
+    　　
+
+
+</GridLayout>
